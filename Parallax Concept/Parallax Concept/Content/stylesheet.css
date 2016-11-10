@@ -2,6 +2,7 @@
     height: 100%;
 }
 
+/* Layout */
 .parallax { 
     /* The image used */
     background-image: url("https://images.unsplash.com/photo-1464823063530-08f10ed1a2dd?dpr=1&auto=format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=");
@@ -25,6 +26,7 @@
     width: 100%;
 }
 
+/* Head + Nav */
 .header {
     height: 300px;
     width: 100%;
@@ -37,15 +39,15 @@
 .header h1 {
     text-align: center;
 }
-.header .nav {
+/*.header .nav {
     margin: auto;
     display: table;
     padding-top: 20px;
+}*/
+#logo {
+    padding: 30px 0;
 }
-#head {
-    padding-top: 30px;
-}
-#head img {
+#logo img {
     margin: auto;
 }
 
@@ -54,15 +56,23 @@ a {
     color: black;
 }
 a:focus, a:hover {
-    color: black;
-}
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-    background-color: #2e3092;
     color: white;
 }
-.nav-pills > li > a {
-    border-radius: 0;
+
+/*
+    dark:  #3f17a0
+    mid:   #8166c0
+    light: #c0b3e0
+*/
+.navbar-theme {
+
 }
-.nav-pills > li > a::first-of-type {
-    border-radius: 4px;
+.navbar-theme .nav>li>a:focus,
+.navbar-theme .nav>li>a:hover {
+    background-color: #8166c0;
+}
+.navbar-theme .nav > li.active > a,
+.navbar-theme .nav > li.active > a {
+    background-color: #3f17a0;
+    color: white;
 }
