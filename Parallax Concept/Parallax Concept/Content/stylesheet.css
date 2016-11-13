@@ -5,16 +5,21 @@
 /* Layout */
 .parallax { 
     /* The image used */
-    background-image: url("https://images.unsplash.com/photo-1464823063530-08f10ed1a2dd?dpr=1&auto=format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=");
+    /*background-image: url("https://images.unsplash.com/photo-1464823063530-08f10ed1a2dd?dpr=1&auto=format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=");*/
 
     /* Set a specific height */
-    height: 35px; 
+    height: 60px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.particles-js-canvas-el {
+    position: fixed;
+    top: 0;
+    z-index: -10;
 }
 .cover {
     width: 100%;
@@ -24,6 +29,7 @@
     padding-top: 50px;
     height: 500px;
     width: 100%;
+    background-color: white;
 }
 
 /* Head + Nav */
@@ -33,7 +39,6 @@
 }
 .header.overlay {
     position: absolute;
-    background-color: white;
     z-index: 1040;
 }
 .header h1 {
@@ -50,6 +55,20 @@
 #logo img {
     margin: auto;
 }
+.navbar-brand {
+    display: none;
+}
+
+/*centre links*/
+.navbar-unfixed.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar-unfixed.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
 
 /* Theme */
 a {
