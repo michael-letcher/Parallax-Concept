@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <title>Parallax</title>
 
     <!-- Bootstrap -->
@@ -16,7 +16,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body id="particles">
+<body id="particles" data-spy="scroll" data-target="#eci-nav">
     <div class="header overlay">
         <div class="container">
             <div class="row">
@@ -27,21 +27,21 @@
             <div class="row">
                 <div class="col-xs-12">
                     <!--<ul class="nav nav-pills">
-                    <li class="active"><a href="#company">Our company</a></li>
-                    <li><a href="#business">Our business</a></li>
-                    <li><a href="#partners">Our partners</a></li>
-                    <li><a href="#customers">Our customers</a></li>
-                    <li><a href="#solution">Our solution</a></li>
-                    <li><a href="#people">Our people</a></li>
-                    <li><a href="#contact">Contact us</a></li>
-                </ul>-->
+                        <li class="active"><a href="#company">Our company</a></li>
+                        <li><a href="#business">Our business</a></li>
+                        <li><a href="#partners">Our partners</a></li>
+                        <li><a href="#customers">Our customers</a></li>
+                        <li><a href="#solution">Our solution</a></li>
+                        <li><a href="#people">Our people</a></li>
+                        <li><a href="#contact">Contact us</a></li>
+                    </ul>-->
                 </div>
             </div>
             <nav class="navbar navbar-theme navbar-unfixed">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#eci-nav" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -53,7 +53,7 @@
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="collapse navbar-collapse" id="eci-nav">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="#company">Our company</a></li>
                             <li><a href="#business">Our business</a></li>
@@ -69,8 +69,8 @@
             </nav>
 
         </div>
-    </div>  
-    
+    </div>
+
     <section class="header"></section>
 
     <section id="company" class="section">
@@ -106,6 +106,60 @@
             </div>
         </div>
     </section>
+
+    <div class="parallax"></div>
+
+    <section id="customers" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Our customers</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="parallax"></div>
+
+    <section id="solution" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Our solution</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="parallax"></div>
+
+    <section id="people" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Our people</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="parallax"></div>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Contact us</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer">
+        <div class="container">
+            This is the footer
+        </div>
+    </footer>
 
     <!-- JS -->
     <script src="Scripts/jquery-2.2.4.min.js"></script>

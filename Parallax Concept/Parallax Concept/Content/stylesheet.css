@@ -1,5 +1,5 @@
-﻿html, body {
-    height: 100%;
+﻿body {
+    position: relative;
 }
 
 /* Layout */
@@ -83,8 +83,8 @@ a:focus, a:hover {
     mid:   #8166c0
     light: #c0b3e0
 */
-.navbar-theme {
-
+.navbar-theme.navbar-fixed-top {
+    background-color: rebeccapurple;
 }
 .navbar-theme .nav>li>a:focus,
 .navbar-theme .nav>li>a:hover {
@@ -94,4 +94,18 @@ a:focus, a:hover {
 .navbar-theme .nav > li.active > a {
     background-color: #3f17a0;
     color: white;
+}
+
+.page-footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    color: #99979c;
+    text-align: center;
+    background-color: #2a2730;
+}
+@media (min-width: 768px) {
+    .page-footer {
+        text-align: left;
+    }
 }
